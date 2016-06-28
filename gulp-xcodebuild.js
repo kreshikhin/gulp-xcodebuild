@@ -5,7 +5,7 @@ function isString(str) {
 }
 
 module.exports = function(options, buildactions){
-      let tokens = ['xcodebuild'];
+      var tokens = ['xcodebuild'];
 
       for(let k in options){
             tokens.push('-' + k, options[k]);
