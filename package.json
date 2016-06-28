@@ -1,0 +1,25 @@
+{
+  "name": "gulp-xcodebuild",
+  "version": "1.0.0",
+  "description": "The package joins arguments of xcodebuild and returns a string ready to executing in shell.",
+  "main": "gulp-xcodebuild.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/kreshikhin/gulp-xcodebuild"
+  },
+  "keywords": [
+    "gulp",
+    "xcodebuild",
+    "shell",
+    "xcode",
+    "ios"
+  ],
+  "author": "Denis Kreshikhin",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "^9.0.2"
+  }
+}
