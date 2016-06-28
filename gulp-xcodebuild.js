@@ -7,14 +7,14 @@ function isString(str) {
 module.exports = function(options, buildactions){
       var tokens = ['xcodebuild'];
 
-      for(let k in options){
+      for(var k in options){
             tokens.push('-' + k, options[k]);
       };
 
       if(isString(buildactions)){
             tokens.push(buildactions);
       }else{
-            for(let i in buildactions){
+            for(var i in buildactions){
                   tokens.push(buildactions[i]);
             };
       }
