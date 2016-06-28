@@ -11,7 +11,7 @@ The package joins arguments of xcodebuild and returns a string prepared to execu
 $ npm install gulp-xcodebuild
 ```
 
-# Using
+# Usage
 
 ```js
 
