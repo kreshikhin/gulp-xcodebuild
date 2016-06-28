@@ -20,6 +20,7 @@
   "author": "Denis Kreshikhin",
   "license": "MIT",
   "devDependencies": {
-    "should": "^9.0.2"
+    "should": "^9.0.2",
+    "mocha": "*"
   }
 }
