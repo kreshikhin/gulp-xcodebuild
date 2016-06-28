@@ -3,7 +3,7 @@
 
   [![NPM Version][npm-image]][npm-url]
   [![NPM Downloads][downloads-image]][downloads-url]
-  /*[![Build Status][travis-image]][travis-url]*/
+  [![Build Status][travis-image]][travis-url]
 
 The package joins arguments of xcodebuild and returns a string prepared to executing in shell.
 
@@ -41,5 +41,5 @@ gulp.task('default', ['build']);
 [npm-url]: https://npmjs.org/package/gulp-xcodebuild
 [downloads-image]: https://img.shields.io/npm/dm/gulp-xcodebuild.svg
 [downloads-url]: https://npmjs.org/package/gulp-xcodebuild
-/*[travis-image]: https://img.shields.io/travis/kreshikhin/gulp-xcodebuild/master.svg
-[travis-url]: https://travis-ci.org/kreshikhin/gulp-xcodebuild*/
+[travis-image]: https://img.shields.io/travis/kreshikhin/gulp-xcodebuild/master.svg
+[travis-url]: https://travis-ci.org/kreshikhin/gulp-xcodebuild
