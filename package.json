@@ -1,6 +1,6 @@
 {
   "name": "gulp-xcodebuild",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The package joins arguments of xcodebuild and returns a string ready to executing in shell.",
   "main": "gulp-xcodebuild.js",
   "scripts": {
