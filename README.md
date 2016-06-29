@@ -19,15 +19,13 @@ var gulp = require('gulp');
 var shell = require('gulp-shell');
 var xcodebuild = require('gulp-xcodebuild');
 
-gulp.task('build', () => {
-    shell([
-        xcodebuild({
+gulp.task('build', shell.task([{
+      xcodebuild({
             workspace: "./Example.xcworkspace",
             sdk: "iphoneos9.3",
             scheme: "Example"
       }, 'build')
-    ])
-});
+], {verbose: true}));
 
 gulp.task('default', ['build']);
 
